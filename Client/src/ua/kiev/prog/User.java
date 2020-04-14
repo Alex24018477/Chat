@@ -55,27 +55,7 @@ public class User implements Serializable {
             os.close();
         }
     }
-//    public int autorization(String url, String login, String password) throws IOException {
-//        URL obj = new URL(url);
-//        HttpURLConnection conn = (HttpURLConnection) obj.openConnection();
-//
-//        conn.setRequestMethod("POST");
-//        conn.setDoOutput(true);
-//
-//        OutputStream os = conn.getOutputStream();
-//
-////        OutputStream os1 = new OutputStream();
-////        new User(login, password)
-////        Printwriter someName = res.getWriter;
-////        someName.println(String json)
-//        try {
-//            String json = toJSON();
-//            os.write(json.getBytes(StandardCharsets.UTF_8));
-//            return conn.getResponseCode();
-//        } finally {
-//            os.close();
-//        }
-//    }
+
 
     public String getLogin() {
         return login;
